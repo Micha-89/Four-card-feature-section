@@ -1,0 +1,173 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  margin: 0;
+  font-family: 'Poppins';
+  font-size: 15px;
+}
+
+p{
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+  margin-top: 23px;
+  font-size: 13px;
+}
+
+h3{
+  font-weight: 400;
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+}
+
+h1 h3{
+  color: hsl(234, 12%, 34%);
+}
+
+.intro {
+  text-align: center;
+  margin: 80px auto 65px auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supervisor {
+  display: block;
+  position: relative;
+  padding: 35px 30px 30px 30px;
+  border-radius: 5px;
+  height: 180px;
+  width: 290px;
+  background-color: white;
+  border-top: solid 5px hsl(180, 62%, 55%);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  -moz-box-shadow: 3px 6px 35px #88888888;
+  -webkit-box-shadow: 13px 6px 35px #88888888;
+  box-shadow: 3px 6px 35px #88888888;
+}
+
+.team-builder {
+  display: block;
+  position: relative;
+  padding: 35px 30px 30px 30px;
+  border-radius: 5px;
+  height: 180px;
+  width: 290px;
+  background-color: white;
+  border-top: solid 5px hsl(0, 78%, 62%);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  -moz-box-shadow: 3px 6px 35px #88888888;
+  -webkit-box-shadow: 13px 6px 35px #88888888;
+  box-shadow: 3px 6px 35px #88888888;
+}
+
+.karma {
+  display: block;
+  position: relative;
+  padding: 35px 30px 30px 30px;
+  border-radius: 5px;
+  height: 180px;
+  width: 290px;
+  background-color: white;
+  border-top: solid 5px hsl(34, 97%, 64%);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  -moz-box-shadow: 3px 6px 35px #88888888;
+  -webkit-box-shadow: 13px 6px 35px #88888888;
+  box-shadow: 3px 6px 35px #88888888;
+}
+
+.calculator {
+  display: block;
+  position: relative;
+  padding: 35px 30px 30px 30px;
+  border-radius: 5px;
+  height: 180px;
+  width: 290px;
+  background-color: white;
+  border-top: solid 5px hsl(212, 86%, 64%);
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  -moz-box-shadow: 3px 6px 35px #88888888;
+  -webkit-box-shadow: 13px 6px 35px #88888888;
+  box-shadow: 3px 6px 35px #88888888;
+}
+
+.image {
+  position: absolute;
+  left: 250px;
+  top: 150px;
+  width: 65px;
+  height: 65px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width:1000px) {
+  .grid-container {
+    display: grid;
+    grid-row-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+
+  }
+
+  .supervisor {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .team-builder {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .karma {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .calculator {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+}
+
+.attribution{
+  margin-top: 70px;
+}
